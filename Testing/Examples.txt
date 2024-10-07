@@ -1,0 +1,64 @@
+Example 1:
+
+help
+
+open fig1.svg
+
+print
+
+translate vertical=100 horizontal=100
+
+scale 1 1.25 1.25
+
+create line 0 0 200 200 green
+
+scale 12 2.5 2.5
+
+hide 12
+
+print
+
+scale 2 2
+
+show 12
+
+print
+
+group 0 4000 4000 0
+
+print
+
+scale 5 2 2
+
+extract 14 5
+
+insert 14 1
+
+scale 1 2 2
+
+ungroup 14
+
+print
+
+exit
+---------------------------------------------------------------
+
+Example 2:
+
+create line 0 0 200 200 red
+
+create arc 0 0 45 120 260 blue red
+
+create rect 100 -100 200 300 black green
+
+create polygon 5865 2650 6180 3130 5550 3130 6340 1800 red none
+
+saveas created.svg
+
+saveas created.txt
+
+translate 4 vertical=-1000 horizontal=-3000
+
+saveas created.svg
+
+exit
