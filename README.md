@@ -31,6 +31,6 @@ The editor is built with scalability and maintainability in mind:
 
 This project is structured to accommodate new features, such as:
 
-- Additional shape types
-- Advanced editing capabilities
-- Export to different file formats
+- Additional shape types.
+- Advanced editing capabilities.
+- Export to different file formats.
